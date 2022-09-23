@@ -1,0 +1,13 @@
+.spinner {
+    width: 35px;
+    height: 35px;
+    border: 8px solid #dddddd;
+    border-top-color: #3A3845;
+    border-radius: 50%;
+    animation: spinner 1s ease-out infinite;
+}
+@keyframes spinner {
+    to {
+        transform: rotate(1turn);
+    }
+}

@@ -1,0 +1,33 @@
+.mainInfo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    color: #fff;
+    background-color: #3A3845;
+}
+.left-footer {
+    display: flex;
+}
+.right-footer {
+    font-size: 13px;
+    padding-right: 30px;
+    font-style: italic;
+}
+.avatar-wrapper {
+    box-shadow: 0 0 0 3px #fff;
+    margin-right: 20px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.info-wrapper {
+    text-align: center;
+}
+.wishList-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
